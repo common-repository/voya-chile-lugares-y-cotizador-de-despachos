@@ -1,0 +1,38 @@
+<?php
+
+global $states;
+
+$states['MX'] = array(
+    'AG' => 'Aguascalientes',
+    'BC' => 'Baja California',
+    'BS' => 'Baja California Sur',
+    'CM' => 'Campeche',
+    'CS' => 'Chiapas',
+    'CH' => 'Chihuahua',
+    'DF' => 'Ciudad de México',
+    'CO' => 'Coahuila de Zaragoza',
+    'CL' => 'Colima',
+    'DG' => 'Durango',
+    'GT' => 'Guanajuato',
+    'GR' => 'Guerrero',
+    'HG' => 'Hidalgo',
+    'JA' => 'Jalisco',
+    'MX' => 'México',
+    'MI' => 'Michoacán de Ocampo',
+    'MO' => 'Morelos',
+    'NA' => 'Nayarit',
+    'NL' => 'Nuevo León',
+    'OA' => 'Oaxaca',
+    'PU' => 'Puebla',
+    'QT' => 'Querétaro',
+    'QR' => 'Quintana Roo',
+    'SL' => 'San Luis Potosí',
+    'SI' => 'Sinaloa',
+    'SO' => 'Sonora',
+    'TB' => 'Tabasco',
+    'TM' => 'Tamaulipas',
+    'TL' => 'Tlaxcala',
+    'VE' => 'Veracruz de Ignacio de la Llave',
+    'YU' => 'Yucatán',
+    'ZA' => 'Zacatecas',
+);

@@ -1,0 +1,84 @@
+/* MAIN CONTENT */
+    #sl-loader{
+      display:none; 
+      z-index: 1000; 
+      border: none; 
+      margin: 0px; 
+      padding: 0px; 
+      width: 100%; 
+      height: 100%; 
+      top: 0px; 
+      left: 0px; 
+      background: rgb(255, 255, 255); 
+      opacity: 0.6; 
+      cursor: wait; 
+      position: absolute;
+    }
+    .init-hide{
+      display:none;
+    }
+    table.form-table{
+      background: #ffffff;
+      border: 1px solid #3498db;
+    }
+    table.form-table tr th{
+      padding-left: 25px;
+    }
+    table.form-table tr td{
+      padding-right: 25px;
+    }
+    button.ui-datepicker-current{
+        display: none;
+    }
+/* MODULE TABS */
+    .voyapp-module-tabs-container{
+      margin-bottom: 15px;
+    }
+    .voyapp-module-tab{
+      border: 1px solid #4274ff;
+      border-radius: 10px;
+      color: #4274ff;
+      background-color: transparent;
+    }
+    .voyapp-module-tab.nav-tab-active{
+      background-color: #4274ff;
+      color: white;
+    }
+    .voyapp-module-tab.nav-tab-active:focus {
+      border-bottom: 1px solid #4274ff;
+      background: #4274ff;
+      color: white;
+    }
+    .voyapp-module-tab:first-child{
+      margin-left: 0px;
+    }
+    .voyapp-module-tab:hover, .voyapp-module-tab:focus {
+      transition-duration: .2s;
+      background: #4274ff;
+      color: #ffffff;
+    }
+/* TABS */
+    .voyapp-tabs-container{
+      border-bottom: none;
+    }
+    .nav-tab.nav-tab-active.voyapp-tab{
+      background: #4274ff;
+      color: #ffffff;
+    }
+    .voyapp-tab{
+      border-radius: 8px 8px 0px 0px;
+      border: 1px solid #4274ff;
+      border-bottom: 0px;
+      background: #eaeaea;
+    }
+    .voyapp-tab.hide{
+      display: none;
+    }
+    .voyapp-tab.voyapp-module-main-tab{
+      margin-left: 0px;
+    }
+    .voyapp-tab:hover, .voyapp-tab:focus {
+      transition-duration: .2s;
+      background: #4274ff;
+      color: #ffffff;
+    }
